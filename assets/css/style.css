@@ -1,75 +1,74 @@
 html {
-    height: 100%;
-    
+	height: 100%;
 }
 
 body {
- background: radial-gradient(gray, black);
- color: rgb(197, 196, 196);
+	background: radial-gradient(gray, black);
+	color: rgb(197, 196, 196);
 }
 
 .hero {
-    height: 150px;
-    background: rgb(55, 89, 241);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    border-bottom: yellow 1px solid;
+	height: 150px;
+	background: rgb(55, 89, 241);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	border-bottom: yellow 1px solid;
 }
 
 .hero h1 {
-    font-family: 'Monoton', cursive;
-    font-size: 2rem;
-    color: yellow;
+	font-family: 'Monoton', cursive;
+	font-size: 2rem;
+	color: yellow;
 }
 
 img {
-    display:block;
-    max-height:100px;
-    max-width: 100px;
-    background: radial-gradient(transparent, rgb(228, 167, 14));
+	display: block;
+	max-height: 100px;
+	max-width: 100px;
+	background: radial-gradient(transparent, rgb(228, 167, 14));
 }
 
 .card-body {
-    text-align: center;
-    padding: .1rem;
-    font-size: .6rem;
+	text-align: center;
+	padding: 0.1rem;
+	font-size: 0.6rem;
 }
 
 .card {
-    max-width: 100px;
-    border-color: rgb(54, 54, 31);
+	max-width: 100px;
+	border-color: rgb(54, 54, 31);
 }
 
 .row {
-    justify-content: space-between;
-    margin-top: .26rem;
-    margin-left: auto;
-    margin-right: auto;
-    flex-wrap: nowrap;
+	justify-content: space-between;
+	margin-top: 0.26rem;
+	margin-left: auto;
+	margin-right: auto;
+	flex-wrap: nowrap;
 }
 
 .fight {
-    align-items: center;
+	align-items: center;
 }
 
 .btn {
-    flex: 1;
-    height: 2.5rem;
-    width: 6rem;
-    background: radial-gradient(rgb(97, 97, 50), blue);
+	flex: 1;
+	height: 2.5rem;
+	width: 6rem;
+	background: radial-gradient(rgb(97, 97, 50), blue);
 }
 
 footer {
-    flex-shrink: 0;
-    clear: both;
-    background: rgb(55, 89, 241);
-    border-top: 1px solid yellow;
-    height: 55px;
-    margin-top: 35px;
+	flex-shrink: 0;
+	clear: both;
+	background: rgb(55, 89, 241);
+	border-top: 1px solid yellow;
+	height: 55px;
+	margin-top: 35px;
 }
 
 .fight .card {
-    visibility: hidden;
+	visibility: hidden;
 }
